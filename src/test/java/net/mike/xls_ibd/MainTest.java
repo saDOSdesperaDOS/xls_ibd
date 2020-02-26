@@ -1,6 +1,4 @@
-package xls_ibd;
-
-import java.io.File;
+package net.mike.xls_ibd;
 
 import net.mike.xls_ibd.service.Parser;
 
@@ -23,7 +21,7 @@ public class MainTest {
 		//File myfile  = new File("/home/snake2/temp/price2302MU.xls");
 		
 		Parser p = new Parser();
-		System.out.println(p.parse("/home/snake2/temp/price2302MU.xls"));
+		System.out.println(p.parse("C:/Users/mike/Desktop/price2302MU - копия.xls"));
 		
 
 	}
